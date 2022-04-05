@@ -1,0 +1,27 @@
+@media (max-width: 430px) {
+  .registerForm {
+    width: 90%;
+  }
+  .radio-inline {
+      display: block;
+      font-size: 14px;
+    }
+    .form-check-label {
+      font-size: 14px;
+    }
+    .btn-primary{
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .registerForm {
+      width: 65%;
+    }  
+  }
+
+  @media (min-width: 769px) {
+    .registerForm {
+      width: 40%;
+    }
+  }
